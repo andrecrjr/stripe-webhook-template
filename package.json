@@ -1,0 +1,26 @@
+{
+  "name": "stripe-service",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "André Carlos Jr.",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.6.1",
+    "@types/stripe": "^8.0.417",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "stripe": "^16.12.0"
+  }
+}
